@@ -237,67 +237,57 @@
 }
 
 .person {
+  position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  position: static;
 }
 
 .person_name_feynman {
-  position: absolute;
   top: -30px;
-  right: 319px;
+  left: 319px;
 }
 
 .person_name_burbidge {
-  position: absolute;
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  position: absolute;
   bottom: 18px;
   right: 216px;
 }
 
 .person_name_mitchell {
-  position: absolute;
   bottom: 82px;
   left: 142px;
 }
 
 .person_name_tarter {
-  position: absolute;
   top: 79px;
   left: 159px;
 }
 
 .person__image {
   max-width: 100%;
-  position: static;
 }
 
 .person__image_size_l {
   width: 140px;
-  position: static;
 }
 
 .person__image_size_m {
   width: 100px;
-  position: static;
 }
 
 .person__image_size_s {
   width: 80px;
-  position: static;
 }
 
 .person__caption {
   text-align: center;
   font-size: 14px;
   margin: 0;
-  position: relative;
   top: -10px;
 }
